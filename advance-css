@@ -5,3 +5,16 @@
     shape-outside: polygon(50% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
+
+.element {
+    width: 60vw;
+    height: 100vh;
+    float: left;
+    background-image: url(cupcakes.png);
+    background-size: cover;
+
+    clip-path: circle(70% at 0% 50%);
+    shape-outside: circle(70% at 0% 50%) border-box;
+
+    shape-margin: 2em;
+}
